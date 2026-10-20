@@ -7,8 +7,8 @@
   import { untrack, type Snippet } from 'svelte'
   import { CommandMenu, Footer, GitHubCorner, Icon, ThemeToggle } from 'svelte-widgets'
   import { FileCertificate, Quote } from 'svelte-widgets/icons'
-  // oxlint-disable-next-line import/no-unassigned-import -- KaTeX styles for description math
-  import 'katex/dist/katex.min.css'
+  // oxlint-disable-next-line import/no-unassigned-import -- Temml styles for description math
+  import 'temml/dist/Temml-Local.css'
   // oxlint-disable-next-line import/no-unassigned-import -- global app styles
   import '../app.css'
 
